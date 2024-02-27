@@ -145,7 +145,7 @@ function _scanGenericArray(arr, sfsa, forceToNumber=false) {
         } else if(Number.isInteger(item) && !forceToNumber) {
             sfsa.addLong(item);
 
-        } else if(!isNaN(item)) {
+        } else if(!isNaN(item) && Number.isFinite(item)) {
             sfsa.addDouble(item);
 
         } else if(typeof(item)=='string') {
