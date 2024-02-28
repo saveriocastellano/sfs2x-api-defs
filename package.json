@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sfs2x-api": "^1.8.0"
+    "sfs2x-api": "^1.8.0",
+    "ws": "^8.16.0"
   }
 }
